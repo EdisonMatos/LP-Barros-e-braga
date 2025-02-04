@@ -16,7 +16,7 @@ export default function AboutParalaxeLP() {
       id="contact"
     >
       <div className="flex justify-center w-full text-white bg-opacity-10 bg-primary">
-        <div className="flex justify-center w-full bg-black bg-opacity-80">
+        <div className="flex justify-center w-full bg-[#06176C] bg-opacity-80">
           <SectionArea className="">
             <SectionWrapper>
               <SectionHeader

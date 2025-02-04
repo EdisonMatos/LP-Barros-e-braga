@@ -17,34 +17,34 @@ export default function AboutParalaxeLP() {
       id="contact"
     >
       <div className="flex justify-center w-full text-white bg-opacity-10 bg-primary">
-        <div className="flex justify-center w-full bg-black bg-opacity-80">
+        <div className="flex justify-center w-full bg-[#06176C] bg-opacity-80">
           <SectionArea>
             <SectionWrapper>
               <div className="gap-y-[60px]  flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[120px]">
                 <MotionDivDownToUp className="flex justify-center ">
                   {/* Logo */}
 
-                  <img
+                  {/* <img
                     src={contentLp01.about.logo.logoImg}
                     alt={contentLp01.about.logo.alt}
                     className="w-[90%] desktop1:w-[70%]"
-                  />
+                  /> */}
 
                   {/* Foto  */}
 
-                  {/* <img
+                  <img
                     src={content.texts.about.imagem.img}
                     alt={content.texts.about.imagem.alt}
                     className="w-[90%] desktop1:w-[90%] rounded-xl shadow-custom-opacity shadow-secondary/50"
-                  /> */}
+                  />
                 </MotionDivDownToUp>
 
                 {/* Sendo logo */}
 
-                <div className="desktop1:w-[60%]">
-                  {/* Sendo foto */}
+                {/* <div className="desktop1:w-[60%]"> */}
+                {/* Sendo foto */}
 
-                  {/* <div className="desktop1:w-[100%] "> */}
+                <div className="desktop1:w-[100%] ">
                   <SectionHeader
                     className="text-center"
                     miniTitle={contentLp01.about.sectionHeader.miniTag}
