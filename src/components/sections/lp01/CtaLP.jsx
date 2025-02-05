@@ -5,6 +5,7 @@ import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 
+
 export default function AboutParalaxeLP() {
   return (
     <div

@@ -5,8 +5,12 @@ import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
+import { useNavigate } from "react-router-dom";
+
 
 export default function AboutParalaxeLP() {
+  const navigate = useNavigate();
+
   return (
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
@@ -64,7 +68,7 @@ export default function AboutParalaxeLP() {
                           contentLp01.hero.textArea.ctaButtonAriaLabel
                         }
                         label={contentLp01.about.buttonLabel}
-                        buttonLink={contentLp01.links.ctaWhatsapp}
+                        onClick={() => navigate("/whatsapp")}
                         animation
                         className=""
                         icon={
