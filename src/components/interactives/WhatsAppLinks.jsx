@@ -4,7 +4,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function WhatsAppLinks() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#06176C] p-4">
       <MotionDivDownToUp className="flex justify-center desktop1:justify-start">
         <img
           src={contentLp01.hero.logo.logoImg}
@@ -13,7 +13,7 @@ export default function WhatsAppLinks() {
         />
       </MotionDivDownToUp>
       <MotionDivDownToUp>
-        <h1 className="text-xl font-semibold mb-6 text-gray-700">
+        <h1 className="text-xl font-semibold mb-6 text-white">
           Escolha um contato do WhatsApp:
         </h1>
       </MotionDivDownToUp>
@@ -61,7 +61,7 @@ export default function WhatsAppLinks() {
 
       <footer className="">
         <MotionDivDownToUp>
-          <button className="mt-12 bg-black text-white px-8 py-2 rounded transition hover:scale-110" onClick={() => (window.location.href = "/")}>Voltar</button>
+          <button className="mt-12 bg-white text-[#000] font-bold px-8 py-2 rounded transition hover:scale-110" onClick={() => (window.location.href = "/")}>Voltar</button>
         </MotionDivDownToUp>
       </footer>
     </div>
