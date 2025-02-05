@@ -3,8 +3,10 @@ import SectionWrapper from "../../animation/MotionDivDownToUp";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import contentLp01 from "../../../content/contentLp01";
+import { useNavigate } from "react-router-dom";
 
 export default function HeroLP() {
+  const navigate = useNavigate();
   return (
     <div
       className="w-full bg-top bg-no-repeat bg-cover font-mainFont"
@@ -54,7 +56,7 @@ export default function HeroLP() {
                           contentLp01.hero.textArea.ctaButtonAriaLabel
                         }
                         label={contentLp01.hero.textArea.buttonLabel}
-                        buttonLink={contentLp01.links.ctaWhatsapp}
+                        onClick={() => navigate("/whatsapp")}
                         animation
                         className="w-[100%]"
                         icon={
