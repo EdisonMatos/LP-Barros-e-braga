@@ -43,8 +43,8 @@ const currentYear = new Date().getFullYear();
 
 export const infos = {
   name: "Barros e Braga Advocacia",
-  email: "contato", // Email desejado pelo cliente
-  domain: "barrosebraga.adv.br", // Sem "www"
+  email: "barrosebragadv", // Email desejado pelo cliente
+  domain: "hotmail.com", // Sem "www"
   phone: {
     ddd: "86",
     firstPart: "98181", // Apenas os 5 primeiros números (incluindo o 9)

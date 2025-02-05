@@ -37,7 +37,7 @@ const contentLp02 = {
   features: {
     sectionHeader: {
       miniTag: "DEFESA IMEDIATA",
-      title: "Como funciona a defesa em casos de flagrante?",
+      title: "Onde podemos te defender?",
     },
     cards: {
       card1: {
@@ -61,9 +61,9 @@ const contentLp02 = {
             <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
-        title: "Análise da legalidade da prisão",
+        title: "Flagrante e Audiência de Custódia",
         description:
-          "Ao ser detido em flagrante, o primeiro passo é verificar se a prisão seguiu todos os procedimentos legais. Identificamos possíveis abusos ou falhas processuais e tomamos as medidas necessárias para anular a prisão e proteger seus direitos.",
+          "Defesa desde a prisão até a primeira audiência.",
       },
       card2: {
         icon: (
@@ -84,9 +84,9 @@ const contentLp02 = {
             <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
           </svg>
         ),
-        title: "Atuação estratégica na audiência de custódia",
+        title: "Instrução do Processo",
         description:
-          "Na audiência de custódia, buscamos a melhor solução para o seu caso, trabalhando para garantir a liberdade imediata ou medidas alternativas. Defendemos seus direitos com firmeza para assegurar um tratamento justo.",
+          "Acompanhamento e estratégia na fase processual.",
       },
       card3: {
         icon: (
@@ -106,9 +106,9 @@ const contentLp02 = {
             <path d="m9 9.5 2 2 4-4" />
           </svg>
         ),
-        title: "Pedido de liberdade provisória ou fiança",
+        title: "Atuação em Recursos",
         description:
-          "Após a prisão, avaliamos a possibilidade de solicitar liberdade provisória ou fiança, sempre considerando as particularidades do caso. Nossa prioridade é evitar detenções desnecessárias, garantindo seus direitos legais.",
+          "Elaboração e defesa de recursos judiciais.",
       },
       card4: {
         icon: (
@@ -128,9 +128,9 @@ const contentLp02 = {
             <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "Recursos e defesa contínua",
+        title: "Execução Penal",
         description:
-          "Se a prisão for mantida, recorremos a instâncias superiores para reverter a decisão. Atuamos para assegurar que seus direitos sejam respeitados em todas as fases do processo, buscando sempre a justiça.",
+          "Atuação em progressão, livramento e benefícios.",
       },
     },
   },
