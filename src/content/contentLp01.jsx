@@ -62,8 +62,7 @@ const contentLp02 = {
           </svg>
         ),
         title: "Flagrante e Audiência de Custódia",
-        description:
-          "Defesa desde a prisão até a primeira audiência.",
+        description: "Defesa desde a prisão até a primeira audiência.",
       },
       card2: {
         icon: (
@@ -85,8 +84,7 @@ const contentLp02 = {
           </svg>
         ),
         title: "Instrução do Processo",
-        description:
-          "Acompanhamento e estratégia na fase processual.",
+        description: "Acompanhamento e estratégia na fase processual.",
       },
       card3: {
         icon: (
@@ -107,8 +105,7 @@ const contentLp02 = {
           </svg>
         ),
         title: "Atuação em Recursos",
-        description:
-          "Elaboração e defesa de recursos judiciais.",
+        description: "Elaboração e defesa de recursos judiciais.",
       },
       card4: {
         icon: (
@@ -129,8 +126,7 @@ const contentLp02 = {
           </svg>
         ),
         title: "Execução Penal",
-        description:
-          "Atuação em progressão, livramento e benefícios.",
+        description: "Atuação em progressão, livramento e benefícios.",
       },
     },
   },
@@ -147,7 +143,7 @@ const contentLp02 = {
     paragraph: (
       <p>
         Em situações de flagrante, agir com rapidez e precisão é fundamental
-        para resguardar seus direitos. Por isso, atuo com eficiência e
+        para resguardar seus direitos. Por isso, atuamos com eficiência e
         estratégia, garantindo uma defesa sólida sem comprometer a qualidade e o
         compromisso com a justiça. Cada etapa do processo é conduzida com
         determinação para assegurar o melhor resultado. <br />
