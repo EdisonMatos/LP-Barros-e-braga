@@ -16,7 +16,7 @@ export default function HeroLP() {
     >
       <SectionArea
         paddingTopAndBottom={false}
-        className="bg-[#06176C] bg-opacity-80"
+        className="bg-black bg-opacity-70"
       >
         <SectionWrapper className="">
           <div className="flex w-full ">

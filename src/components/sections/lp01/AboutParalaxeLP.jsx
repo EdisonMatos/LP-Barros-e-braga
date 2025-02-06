@@ -7,7 +7,6 @@ import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import { useNavigate } from "react-router-dom";
 
-
 export default function AboutParalaxeLP() {
   const navigate = useNavigate();
 
@@ -21,7 +20,7 @@ export default function AboutParalaxeLP() {
       id="contact"
     >
       <div className="flex justify-center w-full text-white bg-opacity-10 bg-primary">
-        <div className="flex justify-center w-full bg-[#06176C] bg-opacity-80">
+        <div className="flex justify-center w-full bg-black bg-opacity-70">
           <SectionArea>
             <SectionWrapper>
               <div className="gap-y-[60px]  flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[120px]">
